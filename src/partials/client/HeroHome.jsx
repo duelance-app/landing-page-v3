@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import Modal from "../utils/Modal";
+import Modal from "../../utils/Modal";
 
-import HeroImage from "../images/hero-image.svg";
+import HeroImage from "../../images/hero-image.svg";
 
 function HeroHome() {
     const [videoModalOpen, setVideoModalOpen] = useState(false);
@@ -48,9 +48,9 @@ function HeroHome() {
                             className="text-5xl md:text-6xl text-scheme-black font-extrabold leading-tighter tracking-tighter mb-4"
                             data-aos="zoom-y-out"
                         >
-                            Find High Paying Work{" "}
+                            Find Freelancers{" "}
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-scheme-darkBlue to-scheme-lightBlue">
-                                Keep All Your Profits
+                                Low costs
                             </span>
                         </h1>
                         <div className="max-w-3xl mx-auto">
