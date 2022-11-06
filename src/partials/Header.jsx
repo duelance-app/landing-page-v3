@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import Toggle from "../../utils/Toggle";
+import Toggle from "../utils/Toggle";
 
 function Header() {
     const [top, setTop] = useState(true);
@@ -23,7 +23,7 @@ function Header() {
             <div className="max-w-6xl mx-auto px-5 sm:px-6">
                 <div className="flex items-center justify-between h-16 md:h-20">
                     {/* Site branding */}
-                    <div className="flex-shrink-0 mr-4">
+                    <div className="flex-shrink-0">
                         {/* Logo */}
                         <Link to="/" className="block" aria-label="Duelance">
                             <svg
@@ -67,19 +67,20 @@ c0 72 1 134 3 138 1 4 -15 11 -36 15 -57 12 -96 35 -117 71 -19 31 -20 56 -20
                         </Link>
                     </div>
 
-                    <div className="flex flex-wrap justify-center">
-                        <div className="flex justify-center items-center">
+                    <div className="flex items-center justify-center text-gray-900">
+                        <span className="h4">Freelancer</span>
+                        <div className="px-2">
                             <Toggle />
                         </div>
+                        <span className="h4">Client</span>
                     </div>
 
                     {/* Site navigation */}
-                    <div className="flex flex-wrap justify-end">
-                        <div className="flex justify-center items-center">
-                            <button className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800 ml-3">
-                                <span>Join the waitlist</span>
-                            </button>
-                        </div>
+
+                    <div>
+                        <button className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800">
+                            <span>Join the waitlist</span>
+                        </button>
                     </div>
                 </div>
             </div>

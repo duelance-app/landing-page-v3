@@ -137,5 +137,5 @@ module.exports = {
         boxShadow: ["responsive", "hover", "focus", "focus-within"],
         opacity: ["responsive", "hover", "focus", "group-hover"],
     },
-    plugins: [require("@tailwindcss/forms"), require("daisyui")],
+    plugins: [require("@tailwindcss/forms")],
 };

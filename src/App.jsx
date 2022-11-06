@@ -6,7 +6,7 @@ import "./css/style.css";
 
 import AOS from "aos";
 
-import Home from "./pages/Home";
+import Home from "./pages/Home.tsx";
 
 function App() {
     const location = useLocation();

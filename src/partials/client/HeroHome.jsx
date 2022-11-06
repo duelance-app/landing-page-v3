@@ -48,9 +48,9 @@ function HeroHome() {
                             className="text-5xl md:text-6xl text-scheme-black font-extrabold leading-tighter tracking-tighter mb-4"
                             data-aos="zoom-y-out"
                         >
-                            Find Freelancers{" "}
+                            Find High Paying Work{" "}
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-scheme-darkBlue to-scheme-lightBlue">
-                                Low costs
+                                Keep All Your Profits
                             </span>
                         </h1>
                         <div className="max-w-3xl mx-auto">

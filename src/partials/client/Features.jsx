@@ -32,7 +32,6 @@ function Features() {
                 className="absolute inset-0 bg-gray-100 pointer-events-none mb-16"
                 aria-hidden="true"
             ></div>
-            <div className="absolute left-0 right-0 m-auto w-px p-px h-20 bg-gray-200 transform -translate-y-1/2"></div>
 
             <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
                 <div className="pt-4 md:pt-12">
@@ -69,10 +68,11 @@ function Features() {
                                             Simple Subscription, No Commission
                                         </div>
                                         <div className="text-gray-600">
-                                            // TODO Take collaboration to the
-                                            next level with security and
-                                            administrative features built for
-                                            teams.
+                                            Our platform doesn’t charge
+                                            commissions, so that you get to take
+                                            more home. Pay a fixed monthly price
+                                            and work on as many projects as you
+                                            want to! It’s 5-10x cheaper!
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -105,10 +105,12 @@ function Features() {
                                             Get Work, Not Search For It
                                         </div>
                                         <div className="text-gray-600">
-                                            // TODO Take collaboration to the
-                                            next level with security and
-                                            administrative features built for
-                                            teams.
+                                            Our platform intelligently matches
+                                            and shows your projects that suit
+                                            your skill level and expertise. Just
+                                            click one button to accept or reject
+                                            a job. Jobs come to you, you don’t
+                                            look for them :)
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -140,10 +142,11 @@ function Features() {
                                             Get Paid, No Matter What
                                         </div>
                                         <div className="text-gray-600">
-                                            // TODO Take collaboration to the
-                                            next level with security and
-                                            administrative features built for
-                                            teams.
+                                            Never ever get scammed again. We
+                                            ensure that you get paid on
+                                            submitting satisfactory work, no
+                                            matter what. We will pay you if the
+                                            client doesn’t.
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -175,13 +178,15 @@ function Features() {
                                 >
                                     <div>
                                         <div className="text-scheme-black font-bold leading-snug tracking-tight mb-1">
-                                            No Race To The Bottom
+                                            Just Move Up, No Race To The Bottom
                                         </div>
                                         <div className="text-gray-600">
-                                            // TODO Take collaboration to the
-                                            next level with security and
-                                            administrative features built for
-                                            teams.
+                                            Stop building websites for $5. Work
+                                            on projects that value your
+                                            contribution and don’t lowball you.
+                                            We hate to see freelancers
+                                            undervaluing themselves and working
+                                            for pennies.
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-white rounded-full shadow flex-shrink-0 ml-3">
@@ -216,7 +221,7 @@ function Features() {
 
                         {/* Tabs items */}
                         <div
-                            className="max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
+                            className="flex items-center justify-center max-w-xl md:max-w-none md:w-full mx-auto md:col-span-5 lg:col-span-6 mb-8 md:mb-0 md:order-1"
                             data-aos="zoom-y-out"
                             ref={tabs}
                         >
