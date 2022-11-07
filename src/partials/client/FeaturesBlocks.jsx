@@ -44,7 +44,7 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Sign up
+                                Sign up & Fill out your company details
                             </h4>
                             <p className="text-gray-600 text-center">
                                 // TODO Lorem ipsum dolor sit amet, consectetur
@@ -74,7 +74,7 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Get Pre-vetted
+                                Post your job
                             </h4>
                             <p className="text-gray-600 text-center">
                                 // TODO Lorem ipsum dolor sit amet, consectetur
@@ -104,7 +104,7 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Get Vetted
+                                Sit Back and Relax
                             </h4>
                             <p className="text-gray-600 text-center">
                                 // TODO Lorem ipsum dolor sit amet, consectetur
@@ -141,7 +141,7 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1">
-                                Get to Work!
+                                Complete payment for the freelancer
                             </h4>
                             <p className="text-gray-600 text-center">
                                 // TODO Lorem ipsum dolor sit amet, consectetur

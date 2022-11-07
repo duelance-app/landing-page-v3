@@ -21,9 +21,9 @@ function Header() {
             }`}
         >
             <div className="max-w-6xl mx-auto px-5 sm:px-6">
-                <div className="flex items-center justify-between h-16 md:h-20">
+                <div className="flex flex-col items-center justify-between mb-4 md:h-20 md:flex-row md:mb-0">
                     {/* Site branding */}
-                    <div className="flex-shrink-0">
+                    <div className="">
                         {/* Logo */}
                         <Link to="/" className="block" aria-label="Duelance">
                             <svg
@@ -67,12 +67,12 @@ c0 72 1 134 3 138 1 4 -15 11 -36 15 -57 12 -96 35 -117 71 -19 31 -20 56 -20
                         </Link>
                     </div>
 
-                    <div className="flex items-center justify-center text-gray-900">
-                        <span className="h4">Freelancer</span>
+                    <div className="flex items-center justify-center text-gray-900 mb-2">
+                        <span className="text-2xl font-semibold">Freelancer</span>
                         <div className="px-2">
                             <Toggle />
                         </div>
-                        <span className="h4">Client</span>
+                        <span className="text-2xl font-semibold">Client</span>
                     </div>
 
                     {/* Site navigation */}

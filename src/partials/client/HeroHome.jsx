@@ -39,7 +39,7 @@ function HeroHome() {
                 </svg>
             </div>
 
-            <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <div className="max-w-6xl mt-28 mx-auto px-4 sm:px-6 md:mt-0">
                 {/* Hero content */}
                 <div className="pt-20 md:pt-28">
                     {/* Section header */}
@@ -48,9 +48,9 @@ function HeroHome() {
                             className="text-5xl md:text-6xl text-scheme-black font-extrabold leading-tighter tracking-tighter mb-4"
                             data-aos="zoom-y-out"
                         >
-                            Find High Paying Work{" "}
+                            Find Amazing Freelancers {" "}
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-scheme-darkBlue to-scheme-lightBlue">
-                                Keep All Your Profits
+                                Swiftly and Affordably
                             </span>
                         </h1>
                         <div className="max-w-3xl mx-auto">

@@ -65,14 +65,10 @@ function Features() {
                                 >
                                     <div>
                                         <div className="text-scheme-black font-bold leading-snug tracking-tight mb-1">
-                                            Simple Subscription, No Commission
+                                            Simple Subscription, No Commissions
                                         </div>
                                         <div className="text-gray-600">
-                                            Our platform doesn’t charge
-                                            commissions, so that you get to take
-                                            more home. Pay a fixed monthly price
-                                            and work on as many projects as you
-                                            want to! It’s 5-10x cheaper!
+                                            It doesn’t matter if it’s a $20 job or a $200K one. Pay a fixed monthly price and hire as many freelancers as you want to. It’s 5-10x cheaper for you.
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
@@ -103,15 +99,10 @@ function Features() {
                                 >
                                     <div>
                                         <div className="text-scheme-black font-bold leading-snug tracking-tight mb-1">
-                                            Get Work, Don't Search For It
+                                            Hire Within Hours, Not Days
                                         </div>
                                         <div className="text-gray-600">
-                                            Our platform intelligently matches
-                                            and shows your projects that suit
-                                            your skill level and expertise. Just
-                                            click one button to accept or reject
-                                            a job. Jobs come to you, you don’t
-                                            look for them :)
+                                            Stop spending days gathering resumes, scanning through them, setting up interviews, and finally starting work. Our platform does all the heavy lifting, enabling you to start with a suitable person within hours.
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
@@ -141,14 +132,10 @@ function Features() {
                                 >
                                     <div>
                                         <div className="text-scheme-black font-bold leading-snug tracking-tight mb-1">
-                                            Get Paid, No Matter What
+                                            Amazing Work, No Matter What
                                         </div>
                                         <div className="text-gray-600">
-                                            Never ever get scammed again. We
-                                            ensure that you get paid on
-                                            submitting satisfactory work, no
-                                            matter what. We will pay you if the
-                                            client doesn’t.
+                                            It’s our job to get you amazing work no matter what. For one off projects (development, writing & editing, graphic design), our platform shows you submissions from multiple freelancers to help you compare and choose the best one.
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
@@ -185,15 +172,10 @@ function Features() {
                                 >
                                     <div>
                                         <div className="text-scheme-black font-bold leading-snug tracking-tight mb-1">
-                                            Just Move Up, No Race To The Bottom
+                                            Everything Handled, By Us
                                         </div>
                                         <div className="text-gray-600">
-                                            Stop building websites for $5. Work
-                                            on projects that value your
-                                            contribution and don’t lowball you.
-                                            We hate to see freelancers
-                                            undervaluing themselves and working
-                                            for pennies.
+                                            Duelance handles everything for you. Everything from finding candidates to paying them. All you need to do is give us what you need done.
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
