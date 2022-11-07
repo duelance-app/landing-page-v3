@@ -6,6 +6,7 @@ specifiers:
   aos: ^3.0.0-beta.6
   autoprefixer: ^10.4.13
   jotai: ^1.9.1
+  kofi-button: ^1.1.1
   postcss: ^8.4.18
   prop-types: ^15.8.1
   react: ^18.2.0
@@ -22,6 +23,7 @@ dependencies:
   '@tailwindcss/forms': 0.5.3_tailwindcss@3.2.2
   aos: 3.0.0-beta.6
   jotai: 1.9.1_3lzqd2prgnu7gkxqqdmtvzna5u
+  kofi-button: 1.1.1
   prop-types: 15.8.1
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
@@ -926,6 +928,10 @@ packages:
     resolution: {integrity: sha512-1hqLFMSrGHRHxav9q9gNjJ5EXznIxGVO09xQRrwplcS8qs28pZ8s8hupZAmqDwZUmVZ2Qb2jnyPOWcDH8m8dlA==}
     engines: {node: '>=6'}
     hasBin: true
+
+  /kofi-button/1.1.1:
+    resolution: {integrity: sha512-6LjKH46C5L0WXgd7lcCCZ6sZyrtjv7tLA5XLBnuayyzrSDRP6yQKt00zL7IH2QxixqQtyxAqpefwUglmmtD9IA==}
+    dev: false
 
   /lilconfig/2.0.6:
     resolution: {integrity: sha512-9JROoBW7pobfsx+Sq2JsASvCo6Pfo6WWoUW79HuB1BCoBXD4PLWJPqDF6fNj67pqBYTbAHkE57M1kS/+L1neOg==}
