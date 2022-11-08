@@ -1,6 +1,5 @@
 import { useAtom } from "jotai";
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
 import Toggle from "../utils/Toggle";
 import { toggleAtom, waitlistAtom } from "../state";
 
@@ -54,7 +53,7 @@ function Header() {
                     {/* Site branding */}
                     <div className="">
                         {/* Logo */}
-                        <Link to="/" className="block" aria-label="Duelance">
+                        <a href="/" className="block" aria-label="Duelance">
                             <svg
                                 version="1.0"
                                 className="w-20 h-20"
@@ -93,7 +92,7 @@ c0 72 1 134 3 138 1 4 -15 11 -36 15 -57 12 -96 35 -117 71 -19 31 -20 56 -20
                                     />
                                 </g>
                             </svg>
-                        </Link>
+                        </a>
                     </div>
 
                     <div className="flex items-center justify-center text-gray-900 mb-2 md:mt-4">
