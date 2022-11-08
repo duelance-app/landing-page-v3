@@ -8,7 +8,7 @@ function FeaturesBlocks() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-4 md:pb-8">
                         <h2 className="h2 mb-4 text-scheme-black">
-                            How Duelance works
+                            How Duelance Works
                         </h2>
                     </div>
 
@@ -44,11 +44,10 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Sign up
+                                Sign Up
                             </h4>
                             <p className="text-gray-600 text-center">
-                                // TODO Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                Create an account on our platform and fill out your profile details.
                             </p>
                         </div>
 
@@ -74,11 +73,10 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Get Pre-vetted
+                                Initial Vetting
                             </h4>
                             <p className="text-gray-600 text-center">
-                                // TODO Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                We'll vet you on the basis of your profile, primarily work experience.
                             </p>
                         </div>
 
@@ -104,11 +102,10 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Get Vetted
+                                Project-Based Vetting
                             </h4>
                             <p className="text-gray-600 text-center">
-                                // TODO Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                For some industries, you'll receive a project to ensure you walk the talk.
                             </p>
                         </div>
 
@@ -144,8 +141,7 @@ function FeaturesBlocks() {
                                 Get to Work!
                             </h4>
                             <p className="text-gray-600 text-center">
-                                // TODO Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                If all goes well, you'll get access to the platform! Start working and earning more!
                             </p>
                         </div>
                     </div>

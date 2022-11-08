@@ -8,7 +8,7 @@ function FeaturesBlocks() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-4 md:pb-8">
                         <h2 className="h2 mb-4 text-scheme-black">
-                            How Duelance works
+                            How Duelance Works
                         </h2>
                     </div>
 
@@ -44,11 +44,10 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Sign up & Fill out your company details
+                                Sign Up
                             </h4>
                             <p className="text-gray-600 text-center">
-                                // TODO Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                Create an account on the platform and fill out your business/individual details.
                             </p>
                         </div>
 
@@ -74,11 +73,10 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Post your job
+                                Post Your Job
                             </h4>
                             <p className="text-gray-600 text-center">
-                                // TODO Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                Tell us exactly what you want. We provide a strict template to get as much detail as possible.
                             </p>
                         </div>
 
@@ -104,11 +102,10 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Sit Back and Relax
+                                Sit Back & Relax
                             </h4>
                             <p className="text-gray-600 text-center">
-                                // TODO Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                Our platform does the heavylifting now. We'll show you submissions/freelancer profiles depending on the type of the job.
                             </p>
                         </div>
 
@@ -141,11 +138,10 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1">
-                                Complete payment for the freelancer
+                                Pay The Freelancer
                             </h4>
                             <p className="text-gray-600 text-center">
-                                // TODO Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit.
+                                Upon receiving satisfactory work, pay the freelancer with the click of a button!
                             </p>
                         </div>
                     </div>

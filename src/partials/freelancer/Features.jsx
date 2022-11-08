@@ -38,7 +38,7 @@ function Features() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-4 md:pb-8">
                         <h1 className="h2 mb-4 text-scheme-black">
-                            What we can do for you
+                            You’ll Love Us. Here’s Why.
                         </h1>
                     </div>
 
