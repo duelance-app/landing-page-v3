@@ -1,9 +1,38 @@
+import { useAtom } from "jotai";
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import Toggle from "../utils/Toggle";
+import { toggleAtom, waitlistAtom } from "../state";
 
 function Header() {
     const [top, setTop] = useState(true);
+    const [buttonText, setButtonText] = useState("Join the Waitlist");
+    const [toggle, setToggle] = useAtom(toggleAtom);
+    const [waitlist, setWaitlist] = useAtom(waitlistAtom);
+
+    const sendWaitlistData = async (email) => {
+        try {
+            const response = await fetch(`https://duelance.app/addWaitlist`, {
+                method: "POST",
+                body: JSON.stringify({
+                    email: email,
+                }),
+                headers: {
+                    "Content-Type": "application/json",
+                },
+            });
+            if (!response.ok) {
+                setWaitlist(false);
+                setButtonText("Something went wrong");
+                alert("wrong");
+            } else {
+                setWaitlist(false);
+                setButtonText("Success!");
+            }
+        } catch (err) {
+            alert(err);
+        }
+    };
 
     // detect whether user has scrolled the page down by 10px
     useEffect(() => {
@@ -67,21 +96,63 @@ c0 72 1 134 3 138 1 4 -15 11 -36 15 -57 12 -96 35 -117 71 -19 31 -20 56 -20
                         </Link>
                     </div>
 
-                    <div className="flex items-center justify-center text-gray-900 mb-2">
-                        <span className="text-2xl font-semibold">
+                    <div className="flex items-center justify-center text-gray-900 mb-2 md:mt-4">
+                        <button
+                            onClick={() => {
+                                setToggle(true);
+                            }}
+                            className="text-2xl font-semibold"
+                        >
                             Freelancer
-                        </span>
+                        </button>
                         <div className="px-2">
                             <Toggle />
                         </div>
-                        <span className="text-2xl font-semibold">Client</span>
+                        <button
+                            onClick={() => {
+                                setToggle(false);
+                            }}
+                            className="text-2xl font-semibold"
+                        >
+                            Client
+                        </button>
                     </div>
 
                     {/* Site navigation */}
-                    <div>
-                        <button className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800">
-                            <span>Join the waitlist</span>
-                        </button>
+                    <div className="">
+                        {!waitlist ? (
+                            <button
+                                onClick={() => {
+                                    setWaitlist(true);
+                                }}
+                                className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800"
+                            >
+                                <span>{buttonText}</span>
+                            </button>
+                        ) : (
+                            <>
+                                <form
+                                    className="grid grid-flow-col"
+                                    onSubmit={(e) => {
+                                        e.preventDefault();
+                                        sendWaitlistData(e.target.email.value);
+                                    }}
+                                >
+                                    <input
+                                        type="email"
+                                        className="form-input px-4 py-2 rounded-l-lg block w-44 bg-gray-200 border-transparent focus:border-gray-500 focus:bg-white focus:ring-0"
+                                        placeholder="john@example.com"
+                                        name="email"
+                                    />
+                                    <button
+                                        type="submit"
+                                        className="btn-sm rounded-r-lg"
+                                    >
+                                        &rarr;
+                                    </button>
+                                </form>
+                            </>
+                        )}
                     </div>
                 </div>
             </div>
