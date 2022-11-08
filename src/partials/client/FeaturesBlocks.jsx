@@ -44,7 +44,7 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Sign up & Fill out your company details
+                                Sign up
                             </h4>
                             <p className="text-gray-600 text-center">
                                 // TODO Lorem ipsum dolor sit amet, consectetur
@@ -74,7 +74,7 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Post your job
+                                Post a job
                             </h4>
                             <p className="text-gray-600 text-center">
                                 // TODO Lorem ipsum dolor sit amet, consectetur
@@ -104,7 +104,7 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Sit Back and Relax
+                                Compare submissions
                             </h4>
                             <p className="text-gray-600 text-center">
                                 // TODO Lorem ipsum dolor sit amet, consectetur
@@ -141,7 +141,7 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1">
-                                Complete payment for the freelancer
+                                Complete payment
                             </h4>
                             <p className="text-gray-600 text-center">
                                 // TODO Lorem ipsum dolor sit amet, consectetur

@@ -48,7 +48,7 @@ function HeroHome() {
                             className="text-5xl md:text-6xl text-scheme-black font-extrabold leading-tighter tracking-tighter mb-4"
                             data-aos="zoom-y-out"
                         >
-                            Find Amazing Freelancers {" "}
+                            Find Amazing Freelancers{" "}
                             <span className="bg-clip-text text-transparent bg-gradient-to-r from-scheme-darkBlue to-scheme-lightBlue">
                                 Swiftly and Affordably
                             </span>
@@ -59,8 +59,9 @@ function HeroHome() {
                                 data-aos="zoom-y-out"
                                 data-aos-delay="150"
                             >
-                                Stop wasting time looking for interesting
-                                projects to work on. Let us handle it.
+                                // TODO Stop wasting time looking for
+                                interesting projects to work on. Let us handle
+                                it.
                             </p>
                             <div
                                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"

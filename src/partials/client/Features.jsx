@@ -68,7 +68,11 @@ function Features() {
                                             Simple Subscription, No Commissions
                                         </div>
                                         <div className="text-gray-600">
-                                            It doesn’t matter if it’s a $20 job or a $200K one. Pay a fixed monthly price and hire as many freelancers as you want to. It’s 5-10x cheaper for you.
+                                            It doesn’t matter if it’s a $20 job
+                                            or a $200K one. Pay a fixed monthly
+                                            price and hire as many freelancers
+                                            as you want to. It’s 5-10x cheaper
+                                            for you.
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
@@ -102,7 +106,13 @@ function Features() {
                                             Hire Within Hours, Not Days
                                         </div>
                                         <div className="text-gray-600">
-                                            Stop spending days gathering resumes, scanning through them, setting up interviews, and finally starting work. Our platform does all the heavy lifting, enabling you to start with a suitable person within hours.
+                                            Stop spending days gathering
+                                            resumes, scanning through them,
+                                            setting up interviews, and finally
+                                            starting work. Our platform does all
+                                            the heavy lifting, enabling you to
+                                            start with a suitable person within
+                                            hours.
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
@@ -135,7 +145,11 @@ function Features() {
                                             Amazing Work, No Matter What
                                         </div>
                                         <div className="text-gray-600">
-                                            It’s our job to get you amazing work no matter what. For one off projects (development, writing & editing, graphic design), our platform shows you submissions from multiple freelancers to help you compare and choose the best one.
+                                            For one off projects (development,
+                                            writing & editing, graphic design),
+                                            we show you submissions from a few
+                                            curated freelancers to help you
+                                            compare and choose the best one.
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
@@ -175,7 +189,10 @@ function Features() {
                                             Everything Handled, By Us
                                         </div>
                                         <div className="text-gray-600">
-                                            Duelance handles everything for you. Everything from finding candidates to paying them. All you need to do is give us what you need done.
+                                            Duelance handles everything for you.
+                                            Everything from finding candidates
+                                            to paying them. All you need to do
+                                            is give us what you need done.
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
