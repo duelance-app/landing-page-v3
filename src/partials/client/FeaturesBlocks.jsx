@@ -17,7 +17,7 @@ function FeaturesBlocks() {
                         {/* 1st item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
-                                <div className="text-white w-12 h-12 pt-0.5 pr-1">
+                                <div className="text-white w-8 h-8 pt-0.5 pr-1">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         class="ionicon"
@@ -47,56 +47,73 @@ function FeaturesBlocks() {
                                 Sign Up
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Create an account on the platform and fill out your business/individual details.
+                                Create an account and fill out your details.
                             </p>
                         </div>
 
                         {/* 2nd item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
-                                <div className="text-white w-12 h-12 pt-0.5">
+                                <div className="text-white w-8 h-8 pt-0.5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         class="ionicon"
                                         viewBox="0 0 512 512"
                                     >
-                                        <title>Checkmark</title>
+                                        <title>Cloud Upload</title>
+                                        <path
+                                            d="M320 367.79h76c55 0 100-29.21 100-83.6s-53-81.47-96-83.6c-8.89-85.06-71-136.8-144-136.8-69 0-113.44 45.79-128 91.2-60 5.7-112 43.88-112 106.4s54 106.4 120 106.4h56"
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-linecap="round"
+                                            stroke-linejoin="round"
+                                            stroke-width="32"
+                                        />
                                         <path
                                             fill="none"
                                             stroke="currentColor"
                                             stroke-linecap="round"
                                             stroke-linejoin="round"
                                             stroke-width="32"
-                                            d="M416 128L192 384l-96-96"
+                                            d="M320 255.79l-64-64-64 64M256 448.21V207.79"
                                         />
                                     </svg>
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Post Your Job
+                                Post a Job
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Tell us exactly what you want. We provide a strict template to get as much detail as possible.
+                                Tell us exactly what you need with simple
+                                options.
                             </p>
                         </div>
 
                         {/* 3rd item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
-                                <div className="text-white w-12 h-12 pt-0.5">
+                                <div className="text-white w-8 h-8 pt-0.5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         class="ionicon"
                                         viewBox="0 0 512 512"
                                     >
-                                        <title>Checkmark Done</title>
+                                        <title>Body</title>
+                                        <circle
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-miterlimit="10"
+                                            stroke-width="32"
+                                            cx="256"
+                                            cy="56"
+                                            r="40"
+                                        />
                                         <path
                                             fill="none"
                                             stroke="currentColor"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
+                                            stroke-miterlimit="10"
                                             stroke-width="32"
-                                            d="M464 128L240 384l-96-96M144 384l-96-96M368 128L232 284"
+                                            d="M199.3 295.62h0l-30.4 172.2a24 24 0 0019.5 27.8 23.76 23.76 0 0027.6-19.5l21-119.9v.2s5.2-32.5 17.5-32.5h3.1c12.5 0 17.5 32.5 17.5 32.5v-.1l21 119.9a23.92 23.92 0 1047.1-8.4l-30.4-172.2-4.9-29.7c-2.9-18.1-4.2-47.6.5-59.7 4-10.4 14.13-14.2 23.2-14.2H424a24 24 0 000-48H88a24 24 0 000 48h92.5c9.23 0 19.2 3.8 23.2 14.2 4.7 12.1 3.4 41.6.5 59.7z"
                                         />
                                     </svg>
                                 </div>
@@ -105,43 +122,50 @@ function FeaturesBlocks() {
                                 Sit Back & Relax
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Our platform does the heavylifting now. We'll show you submissions/freelancer profiles depending on the type of the job.
+                                We'll provide you with complete submissions or
+                                relevant profiles depending on the job.
                             </p>
                         </div>
 
                         {/* 4th item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
-                                <div className="text-white w-12 h-12">
+                                <div className="text-white w-8 h-8">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         class="ionicon"
                                         viewBox="0 0 512 512"
                                     >
-                                        <title>Alarm</title>
-                                        <path
-                                            d="M416.07 272a160 160 0 10-160 160 160 160 0 00160-160zM142.12 91.21A46.67 46.67 0 00112 80l-2.79.08C83.66 81.62 64 104 64.07 131c0 13.21 4.66 19.37 10.88 27.23a4.55 4.55 0 003.24 1.77h.88a3.23 3.23 0 002.54-1.31L142.38 99a5.38 5.38 0 001.55-4 5.26 5.26 0 00-1.81-3.79zM369.88 91.21A46.67 46.67 0 01400 80l2.79.08C428.34 81.62 448 104 447.93 131c0 13.21-4.66 19.37-10.88 27.23a4.55 4.55 0 01-3.24 1.76h-.88a3.23 3.23 0 01-2.54-1.31L369.62 99a5.38 5.38 0 01-1.55-4 5.26 5.26 0 011.81-3.79z"
-                                            fill="none"
-                                            stroke="currentColor"
-                                            stroke-miterlimit="10"
-                                            stroke-width="32"
-                                        />
-                                        <path
+                                        <title>Card</title>
+                                        <rect
+                                            x="48"
+                                            y="96"
+                                            width="416"
+                                            height="320"
+                                            rx="56"
+                                            ry="56"
                                             fill="none"
                                             stroke="currentColor"
                                             stroke-linecap="round"
                                             stroke-linejoin="round"
                                             stroke-width="32"
-                                            d="M256.07 160v112h-80M416.07 432l-40-40M96.07 432l40-40"
+                                        />
+                                        <path
+                                            fill="none"
+                                            stroke="currentColor"
+                                            stroke-linejoin="round"
+                                            stroke-width="60"
+                                            d="M48 192h416M128 300h48v20h-48z"
                                         />
                                     </svg>
                                 </div>
                             </div>
                             <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1">
-                                Pay The Freelancer
+                                Pay As You Want
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Upon receiving satisfactory work, pay the freelancer with the click of a button!
+                                Pay using a multitude of payment methods only
+                                after receiving satisfactory work.
                             </p>
                         </div>
                     </div>

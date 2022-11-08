@@ -59,9 +59,8 @@ function HeroHome() {
                                 data-aos="zoom-y-out"
                                 data-aos-delay="150"
                             >
-                                // TODO Stop wasting time looking for
-                                interesting projects to work on. Let us handle
-                                it.
+                                Stop wasting time on shitty applicants. Let us
+                                handle the process.
                             </p>
                             <div
                                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"

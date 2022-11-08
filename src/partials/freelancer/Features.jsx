@@ -76,7 +76,7 @@ function Features() {
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
-                                        <div className="text-white m-1 w-6 h-6 fill-current">
+                                        <div className="text-white m-1 w-4 h-4 fill-current">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 class="ionicon"
@@ -115,7 +115,7 @@ function Features() {
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
-                                        <div className="text-white m-1 w-6 h-6 fill-current">
+                                        <div className="text-white m-1 w-4 h-4 fill-current">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 class="ionicon"
@@ -152,7 +152,7 @@ function Features() {
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
-                                        <div className="text-white m-1 w-6 h-6 fill-current">
+                                        <div className="text-white m-1 w-4 h-4 fill-current">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 class="ionicon"
@@ -197,7 +197,7 @@ function Features() {
                                         </div>
                                     </div>
                                     <div className="flex justify-center items-center w-8 h-8 bg-scheme-darkBlue rounded-full shadow flex-shrink-0 ml-3">
-                                        <div className="text-white m-1 w-6 h-6 fill-current">
+                                        <div className="text-white m-1 w-4 h-4 fill-current">
                                             <svg
                                                 xmlns="http://www.w3.org/2000/svg"
                                                 class="ionicon"

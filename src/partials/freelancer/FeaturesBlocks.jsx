@@ -17,7 +17,7 @@ function FeaturesBlocks() {
                         {/* 1st item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
-                                <div className="text-white w-12 h-12 pt-0.5 pr-1">
+                                <div className="text-white w-8 h-8 pt-0.5 pr-1">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         class="ionicon"
@@ -47,14 +47,15 @@ function FeaturesBlocks() {
                                 Sign Up
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Create an account on our platform and fill out your profile details.
+                                Create an account on our platform and fill out
+                                your profile details.
                             </p>
                         </div>
 
                         {/* 2nd item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
-                                <div className="text-white w-12 h-12 pt-0.5">
+                                <div className="text-white w-8 h-8 pt-0.5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         class="ionicon"
@@ -76,14 +77,15 @@ function FeaturesBlocks() {
                                 Initial Vetting
                             </h4>
                             <p className="text-gray-600 text-center">
-                                We'll vet you on the basis of your profile, primarily work experience.
+                                We'll vet you on the basis of your profile,
+                                primarily work experience.
                             </p>
                         </div>
 
                         {/* 3rd item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
-                                <div className="text-white w-12 h-12 pt-0.5">
+                                <div className="text-white w-8 h-8 pt-0.5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         class="ionicon"
@@ -105,14 +107,15 @@ function FeaturesBlocks() {
                                 Project-Based Vetting
                             </h4>
                             <p className="text-gray-600 text-center">
-                                For some industries, you'll receive a project to ensure you walk the talk.
+                                For some industries, you'll receive a project to
+                                ensure you walk the talk.
                             </p>
                         </div>
 
                         {/* 4th item */}
                         <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
-                                <div className="text-white w-12 h-12">
+                                <div className="text-white w-8 h-8">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
                                         class="ionicon"
@@ -141,7 +144,8 @@ function FeaturesBlocks() {
                                 Get to Work!
                             </h4>
                             <p className="text-gray-600 text-center">
-                                If all goes well, you'll get access to the platform! Start working and earning more!
+                                If all goes well, you'll get access to the
+                                platform! Start working and earning more!
                             </p>
                         </div>
                     </div>
