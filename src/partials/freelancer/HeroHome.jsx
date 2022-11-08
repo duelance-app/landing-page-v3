@@ -39,7 +39,7 @@ function HeroHome() {
                 </svg>
             </div>
 
-            <div className="max-w-6xl mx-auto px-4 sm:px-6">
+            <div className="max-w-6xl mt-28 mx-auto px-4 sm:px-6 md:mt-0">
                 {/* Hero content */}
                 <div className="pt-20 md:pt-28">
                     {/* Section header */}
