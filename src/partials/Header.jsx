@@ -124,7 +124,7 @@ c0 72 1 134 3 138 1 4 -15 11 -36 15 -57 12 -96 35 -117 71 -19 31 -20 56 -20
                                 onClick={() => {
                                     setWaitlist(true);
                                 }}
-                                className="btn-sm text-gray-200 bg-gray-900 hover:bg-gray-800"
+                                className="btn-sm text-white bg-scheme-darkBlue hover:bg-transparent hover:text-black"
                             >
                                 <span>{buttonText}</span>
                             </button>

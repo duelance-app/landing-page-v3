@@ -3,11 +3,11 @@ import React from "react";
 import Header from "../partials/Header";
 import Footer from "../partials/Footer";
 import FreelancerHeroHome from "../partials/freelancer/HeroHome";
-import FreelancerFeaturesHome from "../partials/freelancer/Features";
 import FreelancerFeaturesBlocks from "../partials/freelancer/FeaturesBlocks";
+import FreelancerFeaturesBlocks2 from "../partials/freelancer/FeaturesBlocks2";
 import ClientHeroHome from "../partials/client/HeroHome";
-import ClientFeaturesHome from "../partials/client/Features";
 import ClientFeaturesBlocks from "../partials/client/FeaturesBlocks";
+import ClientFeaturesBlocks2 from "../partials/client/FeaturesBlocks2";
 import { useAtom } from "jotai";
 import { toggleAtom } from "../state";
 
@@ -24,8 +24,8 @@ function Home() {
                     <main className="flex-grow">
                         {/*  Page sections */}
                         <FreelancerHeroHome />
-                        <FreelancerFeaturesHome />
                         <FreelancerFeaturesBlocks />
+                        <FreelancerFeaturesBlocks2 />
                     </main>
                 </>
             ) : (
@@ -34,8 +34,8 @@ function Home() {
                     <main className="flex-grow">
                         {/*  Page sections */}
                         <ClientHeroHome />
-                        <ClientFeaturesHome />
                         <ClientFeaturesBlocks />
+                        <ClientFeaturesBlocks2 />
                     </main>
                 </>
             )}
