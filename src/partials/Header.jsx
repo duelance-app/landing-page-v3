@@ -15,6 +15,7 @@ function Header() {
                 method: "POST",
                 body: JSON.stringify({
                     email: email,
+                    type: toggle,
                 }),
                 headers: {
                     "Content-Type": "application/json",
