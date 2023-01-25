@@ -1,4 +1,5 @@
 import React from "react";
+import Balancer from "react-wrap-balancer";
 
 function FeaturesBlocks() {
     return (
@@ -8,11 +9,14 @@ function FeaturesBlocks() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-4 md:pb-8">
                         <h2 className="h2 mb-4 text-scheme-black">
-                            You’ll Love Us. Here’s Why.
+                            <Balancer>You’ll Love Us. Here’s Why.</Balancer>
                         </h2>
                         <p className="text-gray-600 font-medium text-xl">
-                            Isn't it weird that writers spend more time applying
-                            to jobs than actually writing? We're here to fix it.
+                            <Balancer>
+                                Isn't it weird that writers spend more time
+                                applying to jobs than actually writing? We're
+                                here to fix it.
+                            </Balancer>
                         </p>
                     </div>
 
@@ -38,13 +42,16 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Save 11 Hours a Week
+                                <Balancer>Save 11 Hours a Week</Balancer>
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Stop writing proposals, buying connects, or mass
-                                applying on job boards. Duelance automatically
-                                matches you to jobs, and then it’s a simple
-                                matter of clicking a button to start working.
+                                <Balancer>
+                                    Stop writing proposals, buying connects, or
+                                    mass applying on job boards. Duelance
+                                    automatically matches you to jobs, and then
+                                    it’s a simple matter of clicking a button to
+                                    start working.
+                                </Balancer>
                             </p>
                         </div>
 
@@ -68,13 +75,16 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Earn 20% More
+                                <Balancer>Earn 20% More</Balancer>
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Stop paying outrageous commissions to platforms.
-                                Duelance charges no commissions to freelancers,
-                                so that you can take back control of your money,
-                                and enjoy a higher net income!
+                                <Balancer>
+                                    Stop paying outrageous commissions to
+                                    platforms. Duelance charges no commissions
+                                    to freelancers, so that you can take back
+                                    control of your money, and enjoy a higher
+                                    net income!
+                                </Balancer>
                             </p>
                         </div>
 
@@ -98,13 +108,17 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Don’t Get Scammed, Ever Again
+                                <Balancer>
+                                    Don’t Get Scammed, Ever Again
+                                </Balancer>
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Don’t waste tons of hours on a project, only to
-                                get scammed. We ensure that you get paid on
-                                submitting satisfactory work. We’ll pay you, if
-                                the client doesn’t.
+                                <Balancer>
+                                    Don’t waste tons of hours on a project, only
+                                    to get scammed. We ensure that you get paid
+                                    on submitting satisfactory work. We’ll pay
+                                    you, if the client doesn’t.
+                                </Balancer>
                             </p>
                         </div>
 
@@ -114,37 +128,43 @@ function FeaturesBlocks() {
                                 <div className="text-white w-8 h-8 mt-0.5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="ionicon"
+                                        className="ionicon"
                                         viewBox="0 0 512 512"
                                     >
-                                        <title>Trending Up</title>
+                                        <title>
+                                            <Balancer>Trending Up</Balancer>
+                                        </title>
                                         <path
                                             fill="none"
                                             stroke="currentColor"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="32"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth="32"
                                             d="M352 144h112v112"
                                         />
                                         <path
                                             d="M48 368l121.37-121.37a32 32 0 0145.26 0l50.74 50.74a32 32 0 0045.26 0L448 160"
                                             fill="none"
                                             stroke="currentColor"
-                                            stroke-linecap="round"
-                                            stroke-linejoin="round"
-                                            stroke-width="32"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth="32"
                                         />
                                     </svg>
                                 </div>
                             </div>
                             <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1">
-                                Progress in Your Freelance Writing Career
+                                <Balancer>
+                                    Progress in Your Freelance Writing Career
+                                </Balancer>
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Duelance works on a levels-based system. Submit
-                                awesome work, move up the levels, and get
-                                higher-paying work! Don't get stuck charging the
-                                same rate for years!
+                                <Balancer>
+                                    Duelance works on a levels-based system.
+                                    Submit awesome work, move up the levels, and
+                                    get higher-paying work! Don't get stuck
+                                    charging the same rate for years!
+                                </Balancer>
                             </p>
                         </div>
                     </div>
