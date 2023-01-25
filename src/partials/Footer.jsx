@@ -9,8 +9,8 @@ function Footer() {
                 <div className="flex items-center justify-between py-4 md:py-8 border-t border-gray-200">
                     {/* Copyrights note */}
                     <div className="text-sm text-gray-600">
-                        &copy; Copyright {new Date().getFullYear()} Shreyans
-                        Jain & Naman Bansal.
+                        &copy; Copyright {new Date().getFullYear()} Duelance
+                        Inc.
                         <br />
                         &nbsp;&nbsp;&nbsp; All rights reserved.
                     </div>
