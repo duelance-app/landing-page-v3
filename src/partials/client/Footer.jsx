@@ -16,7 +16,7 @@ function Footer() {
                         >
                             <svg
                                 xmlns="http://www.w3.org/2000/svg"
-                                class="ionicon w-8 h-8 fill-current"
+                                className="ionicon w-8 h-8 fill-current"
                                 viewBox="0 0 512 512"
                             >
                                 <title>Logo Linkedin</title>

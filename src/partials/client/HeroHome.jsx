@@ -1,11 +1,13 @@
-import React, { useState } from "react";
-import Modal from "../../utils/Modal";
+import React from "react";
+import sendWaitlistData from "../../utils/waitlist";
+import Balancer from "react-wrap-balancer";
+import { toggleAtom } from "../../state";
+import { useAtom } from "jotai";
 
 import HeroImage from "../../images/hero-image.svg";
 
 function HeroHome() {
-    const [videoModalOpen, setVideoModalOpen] = useState(false);
-
+    const [toggle, setToggle] = useAtom(toggleAtom);
     return (
         <section className="relative">
             {/* Illustration behind hero content */}
@@ -45,13 +47,21 @@ function HeroHome() {
                     {/* Section header */}
                     <div className="text-center">
                         <h1
-                            className="text-5xl md:text-6xl text-scheme-black font-extrabold leading-tighter tracking-tighter mb-4"
+                            className="text-5xl md:text-[4.75rem] text-scheme-black font-extrabold leading-tighter tracking-tighter mb-4"
                             data-aos="zoom-y-out"
                         >
-                            Hire Skilled Freelance Writers {""}
-                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-scheme-darkBlue to-scheme-lightBlue">
-                                Without Wasting Time On 200+ Bad Applications
-                            </span>
+                            <Balancer>
+                                Hire Skilled Freelance Writers {""}{" "}
+                            </Balancer>
+
+                            <div className="bg-clip-text text-transparent bg-gradient-to-r from-scheme-darkBlue to-scheme-lightBlue">
+                                <Balancer>
+                                    <span>Without Wasting Time on</span>
+                                </Balancer>
+                                <Balancer>
+                                    <span>200+ Bad Applications</span>
+                                </Balancer>
+                            </div>
                         </h1>
                         <div className="max-w-3xl mx-auto">
                             <p
@@ -59,11 +69,13 @@ function HeroHome() {
                                 data-aos="zoom-y-out"
                                 data-aos-delay="150"
                             >
-                                Duelance helps you hire vetted, trusted, and
-                                skilled writers without wasting time on obvious
-                                no-goes. Work with trustworthy and communicative
-                                experts who’ll take your business to the next
-                                level!
+                                <Balancer>
+                                    Duelance helps you hire vetted, trusted, and
+                                    skilled writers without wasting time on
+                                    obvious no-goes. Work with trustworthy and
+                                    communicative experts who’ll take your
+                                    business to the next level!
+                                </Balancer>
                             </p>
                             <div
                                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -73,7 +85,13 @@ function HeroHome() {
                         </div>
                     </div>
 
-                    <form className="max-w-xl mx-auto mt-4 flex-col flex">
+                    <form
+                        className="max-w-xl mx-auto mt-4 flex-col flex"
+                        onSubmit={(e) => {
+                            e.preventDefault();
+                            sendWaitlistData(toggle, e.target.email.value);
+                        }}
+                    >
                         <div className="mt-1">
                             <input
                                 type="email"
@@ -88,7 +106,7 @@ function HeroHome() {
                             type="submit"
                             className="mx-auto inline-flex justify-center items-center rounded border border-transparent bg-scheme-darkBlue px-5 py-2 my-4 text-base font-medium text-white shadow-sm hover:bg-transparent focus:outline hover:text-black focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 w-full md:w-1/3"
                         >
-                            Join the Waitlist
+                            <Balancer>Join the Waitlist</Balancer>
                         </button>
                     </form>
 

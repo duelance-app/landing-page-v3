@@ -1,4 +1,5 @@
 import React from "react";
+import Balancer from "react-wrap-balancer";
 
 function FeaturesBlocks() {
     return (
@@ -8,12 +9,14 @@ function FeaturesBlocks() {
                     {/* Section header */}
                     <div className="max-w-3xl mx-auto text-center pb-4 md:pb-8">
                         <h2 className="h2 mb-4 text-scheme-black">
-                            You’ll Love Us. Here’s Why.
+                            <Balancer>You’ll Love Us. Here’s Why.</Balancer>
                         </h2>
                         <p className="text-gray-600 font-medium text-xl">
-                            We'll make sure that you never say 'Ah, I wasted so
-                            much time and money on that bad writer. Why is it so
-                            hard to find a good one?'
+                            <Balancer>
+                                We'll make sure that you never say 'Ah, I wasted
+                                so much time and money on that bad writer. Why
+                                is it so hard to find a good one?'
+                            </Balancer>
                         </p>
                     </div>
                     {/* Items */}
@@ -38,13 +41,17 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Hire a Fit Writer and Get Back 24+ Hours
+                                <Balancer>
+                                    Hire a Fit Writer and Get Back 24+ Hours
+                                </Balancer>
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Duelance ensures that you don’t have to sort
-                                through 200+ applications of generic writers and
-                                obvious rejects. Finding someone who’s a fit
-                                shouldn’t occur ‘occasionally’
+                                <Balancer>
+                                    Duelance ensures that you don’t have to sort
+                                    through 200+ applications of generic writers
+                                    and obvious rejects. Finding someone who’s a
+                                    fit shouldn’t occur ‘occasionally’
+                                </Balancer>
                             </p>
                         </div>
 
@@ -68,13 +75,17 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Work With Only the Best Writers
+                                <Balancer>
+                                    Work With Only the Best Writers
+                                </Balancer>
                             </h4>
                             <p className="text-gray-600 text-center">
-                                We vet all the candidates through resume
-                                screening, practical tests, and interviews. You
-                                will never say “I wasted a lot of money and time
-                                on that bad writer” again.
+                                <Balancer>
+                                    We vet all the candidates through resume
+                                    screening, practical tests, and interviews.
+                                    You will never say “I wasted a lot of money
+                                    and time on that bad writer” again.
+                                </Balancer>
                             </p>
                         </div>
 
@@ -98,13 +109,17 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Save $$$, and Never Get Ripped Off
+                                <Balancer>
+                                    Save $$$, and Never Get Ripped Off
+                                </Balancer>
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Duelance acts as an escrow. We ensure that you
-                                get satisfactory work, no matter what. If you’re
-                                unhappy, we’ll get your project re-done at our
-                                expense.
+                                <Balancer>
+                                    Duelance acts as an escrow. We ensure that
+                                    you get satisfactory work, no matter what.
+                                    If you’re unhappy, we’ll get your project
+                                    re-done at our expense.
+                                </Balancer>
                             </p>
                         </div>
 
@@ -128,14 +143,18 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1">
-                                Multiple Methods of Getting Your Work Done
+                                <Balancer>
+                                    Multiple Methods of Getting Your Work Done
+                                </Balancer>
                             </h4>
                             <p className="text-gray-600 text-center">
-                                We enable you to work long-term with
-                                communicative experts, or get one-off tasks
-                                done, with zero effort and time spent on your
-                                end. Optionally, you can get multiple
-                                submissions for the same project!
+                                <Balancer>
+                                    We enable you to work long-term with
+                                    communicative experts, or get one-off tasks
+                                    done, with zero effort and time spent on
+                                    your end. Optionally, you can get multiple
+                                    submissions for the same project!
+                                </Balancer>
                             </p>
                         </div>
                     </div>
