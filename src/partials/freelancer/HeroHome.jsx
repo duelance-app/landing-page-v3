@@ -39,28 +39,31 @@ function HeroHome() {
                 </svg>
             </div>
 
-            <div className="max-w-6xl mt-28 mx-auto px-4 sm:px-6 md:mt-0">
+            <div className="max-w-7xl mt-28 mx-auto px-4 sm:px-6 md:mt-0">
                 {/* Hero content */}
                 <div className="pt-20 md:pt-28">
                     {/* Section header */}
-                    <div className="text-center">
+                    <div className="text-center max-w-full">
                         <h1
                             className="text-5xl md:text-6xl text-scheme-black font-extrabold leading-tighter tracking-tighter mb-4"
                             data-aos="zoom-y-out"
                         >
-                            Find High Paying Work{" "}
-                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-scheme-darkBlue to-scheme-lightBlue">
-                                Keep All Your Profits
+                            Get Quality Freelance Writing Gigs {""}
+                            <span className="bg-clip-text text-transparent bg-gradient-to-r from-scheme-lightBlue to-scheme-darkBlue">
+                                and Earn 20% More
                             </span>
                         </h1>
                         <div className="max-w-3xl mx-auto">
                             <p
-                                className="text-xl text-gray-600"
+                                className="text-xl text-gray-600 lg:text-2xl"
                                 data-aos="zoom-y-out"
                                 data-aos-delay="150"
                             >
-                                Stop wasting time looking for interesting
-                                projects to work on. Let us handle it.
+                                Duelance helps professional writers like you
+                                land gigs in your niche without being under
+                                paid. You get to work with understanding and
+                                communicative clients, without parting with 20%
+                                of your income.
                             </p>
                             <div
                                 className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center"
@@ -69,6 +72,25 @@ function HeroHome() {
                             ></div>
                         </div>
                     </div>
+
+                    <form className="max-w-xl mx-auto mt-4 flex-col flex">
+                        <div className="mt-1">
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                className="block w-full rounded-md border-gray-300 shadow-sm focus:border-scheme-darkBlue sm:text-sm"
+                                placeholder="you@example.com"
+                            />
+                        </div>
+
+                        <button
+                            type="submit"
+                            className="mx-auto inline-flex justify-center items-center rounded border border-transparent bg-scheme-darkBlue px-5 py-2 my-4 text-base font-medium text-white shadow-sm hover:bg-transparent focus:outline hover:text-black focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 w-full md:w-1/3"
+                        >
+                            Join the Waitlist
+                        </button>
+                    </form>
 
                     {/* Hero image */}
                     <div>

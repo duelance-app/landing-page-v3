@@ -10,92 +10,106 @@ function FeaturesBlocks() {
                         <h2 className="h2 mb-4 text-scheme-black">
                             You’ll Love Us. Here’s Why.
                         </h2>
+                        <p className="text-gray-600 font-medium text-xl">
+                            Isn't it weird that writers spend more time applying
+                            to jobs than actually writing? We're here to fix it.
+                        </p>
                     </div>
 
                     {/* Items */}
                     <div className="max-w-sm mx-auto grid gap-6 md:grid-cols-2 lg:grid-cols-2 items-start md:max-w-2xl lg:max-w-none">
                         {/* 1st item */}
-                        <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-md">
+                        <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-2xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
                                 <div className="text-white w-8 h-8 mt-0.5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="ionicon"
-                                        viewBox="0 0 512 512"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={1.5}
+                                        stroke="currentColor"
                                     >
-                                        <title>Wallet</title>
-                                        <path d="M95.5 104h320a87.73 87.73 0 0111.18.71 66 66 0 00-77.51-55.56L86 94.08h-.3a66 66 0 00-41.07 26.13A87.57 87.57 0 0195.5 104zM415.5 128h-320a64.07 64.07 0 00-64 64v192a64.07 64.07 0 0064 64h320a64.07 64.07 0 0064-64V192a64.07 64.07 0 00-64-64zM368 320a32 32 0 1132-32 32 32 0 01-32 32z" />
-                                        <path d="M32 259.5V160c0-21.67 12-58 53.65-65.87C121 87.5 156 87.5 156 87.5s23 16 4 16-18.5 24.5 0 24.5 0 23.5 0 23.5L85.5 236z" />
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M12 6v6h4.5m4.5 0a9 9 0 11-18 0 9 9 0 0118 0z"
+                                        />
                                     </svg>
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Simple Subscription, No Commission
+                                Save 11 Hours a Week
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Our platform doesn’t charge commissions, so that
-                                you get to take more home. Pay a fixed monthly
-                                price and work on as many projects as you want
-                                to! It’s 5-10x cheaper!
+                                Stop writing proposals, buying connects, or mass
+                                applying on job boards. Duelance automatically
+                                matches you to jobs, and then it’s a simple
+                                matter of clicking a button to start working.
                             </p>
                         </div>
 
                         {/* 2nd item */}
-                        <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-md">
+                        <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-2xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
                                 <div className="text-white w-8 h-8 mt-0.5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="ionicon"
-                                        viewBox="0 0 512 512"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={1.5}
+                                        stroke="currentColor"
                                     >
-                                        <title>Search</title>
-                                        <path d="M456.69 421.39L362.6 327.3a173.81 173.81 0 0034.84-104.58C397.44 126.38 319.06 48 222.72 48S48 126.38 48 222.72s78.38 174.72 174.72 174.72A173.81 173.81 0 00327.3 362.6l94.09 94.09a25 25 0 0035.3-35.3zM97.92 222.72a124.8 124.8 0 11124.8 124.8 124.95 124.95 0 01-124.8-124.8z" />
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M12 6v12m-3-2.818l.879.659c1.171.879 3.07.879 4.242 0 1.172-.879 1.172-2.303 0-3.182C13.536 12.219 12.768 12 12 12c-.725 0-1.45-.22-2.003-.659-1.106-.879-1.106-2.303 0-3.182s2.9-.879 4.006 0l.415.33M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                                        />
                                     </svg>
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Get Work, Don't Search For It
+                                Earn 20% More
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Our platform intelligently matches and shows
-                                your projects that suit your skill level and
-                                expertise. Just click one button to accept or
-                                reject a job. Jobs come to you, you don’t look
-                                for them :)
+                                Stop paying outrageous commissions to platforms.
+                                Duelance charges no commissions to freelancers,
+                                so that you can take back control of your money,
+                                and enjoy a higher net income!
                             </p>
                         </div>
 
                         {/* 3rd item */}
-                        <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-md">
+                        <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-2xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
                                 <div className="text-white w-8 h-8 mt-0.5">
                                     <svg
                                         xmlns="http://www.w3.org/2000/svg"
-                                        class="ionicon"
-                                        viewBox="0 0 512 512"
+                                        fill="none"
+                                        viewBox="0 0 24 24"
+                                        strokeWidth={1.5}
+                                        stroke="currentColor"
                                     >
-                                        <title>Cash</title>
-                                        <path d="M448 400H64a16 16 0 010-32h384a16 16 0 010 32zM416 448H96a16 16 0 010-32h320a16 16 0 010 32zM32 272H16v48a32 32 0 0032 32h48v-16a64.07 64.07 0 00-64-64z" />
-                                        <path d="M480 240h16v-64h-16a96.11 96.11 0 01-96-96V64H128v16a96.11 96.11 0 01-96 96H16v64h16a96.11 96.11 0 0196 96v16h256v-16a96.11 96.11 0 0196-96zm-224 64a96 96 0 1196-96 96.11 96.11 0 01-96 96z" />
-                                        <circle cx="256" cy="208" r="64" />
-                                        <path d="M416 336v16h48a32 32 0 0032-32v-48h-16a64.07 64.07 0 00-64 64zM480 144h16V96a32 32 0 00-32-32h-48v16a64.07 64.07 0 0064 64zM96 80V64H48a32 32 0 00-32 32v48h16a64.07 64.07 0 0064-64z" />
+                                        <path
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            d="M12 9v3.75m0-10.036A11.959 11.959 0 013.598 6 11.99 11.99 0 003 9.75c0 5.592 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.31-.21-2.57-.598-3.75h-.152c-3.196 0-6.1-1.249-8.25-3.286zm0 13.036h.008v.008H12v-.008z"
+                                        />
                                     </svg>
                                 </div>
                             </div>
                             <h4 className="text-xl font-bold leading-snug tracking-tight mb-1">
-                                Get Paid, No Matter What
+                                Don’t Get Scammed, Ever Again
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Never ever get scammed again. We ensure that you
-                                get paid on submitting satisfactory work, no
-                                matter what. We will pay you if the client
-                                doesn’t.
+                                Don’t waste tons of hours on a project, only to
+                                get scammed. We ensure that you get paid on
+                                submitting satisfactory work. We’ll pay you, if
+                                the client doesn’t.
                             </p>
                         </div>
 
                         {/* 4th item */}
-                        <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-md">
+                        <div className="relative flex flex-col items-center p-6 bg-white rounded shadow-2xl">
                             <div className="flex items-center justify-center bg-scheme-darkBlue rounded-full w-16 h-16 p-1 -mt-1 mb-2">
                                 <div className="text-white w-8 h-8 mt-0.5">
                                     <svg
@@ -124,13 +138,13 @@ function FeaturesBlocks() {
                                 </div>
                             </div>
                             <h4 className="text-xl text-center font-bold leading-snug tracking-tight mb-1">
-                                Just Move Up, No Race To The Bottom
+                                Progress in Your Freelance Writing Career
                             </h4>
                             <p className="text-gray-600 text-center">
-                                Stop building websites for $5. Work on projects
-                                that value your contribution and don’t lowball
-                                you. We hate to see freelancers undervaluing
-                                themselves and working for pennies.
+                                Duelance works on a levels-based system. Submit
+                                awesome work, move up the levels, and get
+                                higher-paying work! Don't get stuck charging the
+                                same rate for years!
                             </p>
                         </div>
                     </div>
