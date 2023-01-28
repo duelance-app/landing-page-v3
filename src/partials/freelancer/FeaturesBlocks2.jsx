@@ -223,7 +223,7 @@ function FeaturesBlocks() {
                                     We care about the protection of your data.
                                     Read our{" "}
                                     <a
-                                        href="#"
+                                        href="/privacy"
                                         className="font-medium text-white underline"
                                     >
                                         Privacy Policy.

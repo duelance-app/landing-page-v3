@@ -1,18 +1,11 @@
 export default function Privacy() {
     return (
         <div className="text-center my-24 mx-auto lg:max-w-5xl px-10">
-            <h1
-                className="text-5xl md:text-[4.75rem] text-scheme-black font-extrabold leading-tighter tracking-tighter mb-4"
-                data-aos="zoom-y-out"
-            >
+            <h1 className="text-5xl md:text-[4.75rem] text-scheme-black font-extrabold leading-tighter tracking-tighter mb-4">
                 Privacy Policy
             </h1>
             <div className="max-w-full text-left">
-                <p
-                    className="text-base md:text-lg lg:text-md text-gray-600"
-                    data-aos="zoom-y-out"
-                    data-aos-delay="150"
-                >
+                <p className="text-base md:text-lg lg:text-md text-gray-600">
                     Protecting your private information is our priority. This
                     Statement of Privacy applies to Duelance, and Duelance Inc.
                     and governs data collection and usage. For the purposes of
