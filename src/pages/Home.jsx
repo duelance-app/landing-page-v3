@@ -1,5 +1,8 @@
 import React from "react";
-
+import CookieConsent, {
+    Cookies,
+    getCookieConsentValue,
+} from "react-cookie-consent";
 import Header from "../partials/Header";
 import Footer from "../partials/Footer";
 import FreelancerHeroHome from "../partials/freelancer/HeroHome";
@@ -26,6 +29,17 @@ function Home() {
                         <FreelancerHeroHome />
                         <FreelancerFeaturesBlocks />
                         <FreelancerFeaturesBlocks2 />
+                        <CookieConsent
+                            style={{ backgroundColor: "rgb(29, 100, 194)" }}
+                            contentStyle={{ fontSize: "20px" }}
+                            buttonStyle={{
+                                backgroundColor: "white",
+                                boxShadow: "5px 1px 1px black ",
+                            }}
+                        >
+                            This site uses cookies. By using this site you agree
+                            to their usage.
+                        </CookieConsent>
                     </main>
                 </>
             ) : (
@@ -36,6 +50,17 @@ function Home() {
                         <ClientHeroHome />
                         <ClientFeaturesBlocks />
                         <ClientFeaturesBlocks2 />
+                        <CookieConsent
+                            style={{ backgroundColor: "rgb(29, 100, 194)" }}
+                            contentStyle={{ fontSize: "20px" }}
+                            buttonStyle={{
+                                backgroundColor: "white",
+                                boxShadow: "5px 1px 1px black ",
+                            }}
+                        >
+                            This site uses cookies. By using this site you agree
+                            to their usage.
+                        </CookieConsent>
                     </main>
                 </>
             )}
