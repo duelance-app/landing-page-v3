@@ -7,6 +7,7 @@ import "./css/style.css";
 import AOS from "aos";
 
 import Home from "./pages/Home.jsx";
+import Privacy from "./pages/PrivacyPolicy";
 
 function App() {
     const location = useLocation();
@@ -30,6 +31,7 @@ function App() {
         <>
             <Routes>
                 <Route exact path="/" element={<Home />} />
+                <Route exact path="privacy" element={<Privacy />} />
             </Routes>
         </>
     );
