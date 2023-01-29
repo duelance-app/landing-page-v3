@@ -31,7 +31,7 @@ function App() {
         <>
             <Routes>
                 <Route exact path="/" element={<Home />} />
-                <Route exact path="/privacy" element={<Privacy />} />
+                <Route exact path="privacy" element={<Privacy />} />
             </Routes>
         </>
     );
