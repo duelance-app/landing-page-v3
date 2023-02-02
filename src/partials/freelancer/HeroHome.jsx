@@ -1,5 +1,5 @@
 import React from "react";
-import sendWaitlistData from "../../utils/waitlist";
+import { HeroForm as Form } from "../../utils/Form";
 import Balancer from "react-wrap-balancer";
 import { toggleAtom } from "../../state";
 import { useAtom } from "jotai";
@@ -82,31 +82,7 @@ function HeroHome() {
                         </div>
                     </div>
 
-                    <form
-                        className="max-w-xl mx-auto mt-4 flex-col flex"
-                        onSubmit={(e) => {
-                            e.preventDefault();
-                            sendWaitlistData(toggle, e.target.email.value);
-                        }}
-                    >
-                        <div className="mt-1">
-                            <input
-                                type="email"
-                                name="email"
-                                id="email"
-                                className="block w-full rounded-md border-gray-300 shadow-sm focus:border-scheme-darkBlue sm:text-sm"
-                                placeholder="you@example.com"
-                                required
-                            />
-                        </div>
-
-                        <button
-                            type="submit"
-                            className="mx-auto inline-flex justify-center items-center rounded border border-transparent bg-scheme-darkBlue px-5 py-2 my-4 text-base font-medium text-white shadow-sm hover:bg-transparent focus:outline hover:text-black focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 w-full md:w-1/3"
-                        >
-                            <Balancer>Join the Waitlist</Balancer>
-                        </button>
-                    </form>
+                    <Form />
 
                     {/* Hero image */}
                     <div>

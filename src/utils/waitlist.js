@@ -10,13 +10,9 @@ const sendWaitlistData = async (toggle, email) => {
                 "Content-Type": "application/json",
             },
         });
-        if (!response.ok) {
-            throw new Error("Something went wrong!");
-        } else {
-            return;
-        }
+        return response;
     } catch (err) {
-        throw new Error(err);
+        return new Error(err);
     }
 };
 

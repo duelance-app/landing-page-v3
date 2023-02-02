@@ -1,13 +1,14 @@
 import { useAtom } from "jotai";
 import React, { useState, useEffect } from "react";
 import Toggle from "../utils/Toggle";
-import { toggleAtom } from "../state";
+import { toggleAtom, waitlistStatusAtom } from "../state";
 import { Link } from "react-scroll";
+import { Button } from "@mantine/core";
 
 function Header() {
     const [top, setTop] = useState(true);
-    const [buttonText, setButtonText] = useState("Join the Waitlist");
-    const [toggle, setToggle] = useAtom(toggleAtom);
+    const [_, setToggle] = useAtom(toggleAtom);
+    const [waitlistStatus] = useAtom(waitlistStatusAtom);
 
     // detect whether user has scrolled the page down by 10px
     useEffect(() => {
@@ -25,11 +26,11 @@ function Header() {
             }`}
         >
             <div className="max-w-6xl mx-auto px-5 sm:px-6">
-                <div className="flex flex-col items-center justify-between mb-4 md:h-20 md:flex-row md:mb-0">
+                <div className="grid md:grid-cols-5 max-sm:flex-col mb-4 md:mb-0">
                     {/* Site branding */}
-                    <div className="">
+                    <div className="md:col-span-1 md:col-start-1 [place-self:center_start]">
                         {/* Logo */}
-                        <a href="/" className="block" aria-label="Duelance">
+                        <a href="/" aria-label="Duelance">
                             <svg
                                 version="1.0"
                                 className="w-20 h-20"
@@ -71,39 +72,37 @@ c0 72 1 134 3 138 1 4 -15 11 -36 15 -57 12 -96 35 -117 71 -19 31 -20 56 -20
                         </a>
                     </div>
 
-                    <div className="flex items-center justify-center text-gray-900 mb-2 md:mt-4">
-                        <button
-                            onClick={() => {
-                                setToggle(true);
-                            }}
-                            className="text-2xl font-semibold"
-                        >
-                            Freelancer
-                        </button>
-                        <div className="px-2">
-                            <Toggle />
-                        </div>
-                        <button
-                            onClick={() => {
-                                setToggle(false);
-                            }}
-                            className="text-2xl font-semibold"
-                        >
-                            Client
-                        </button>
-                    </div>
+                    <Toggle />
 
                     {/* Site navigation */}
-                    <div className="">
+                    <div className="md:col-span-1 md:col-start-5 [place-self:center_end]">
                         <Link
                             to="email-address"
                             spy={true}
                             smooth={true}
                             offset={-70}
                             duration={150}
-                            className="btn-sm text-white cursor-pointer bg-scheme-darkBlue hover:bg-transparent hover:text-black"
                         >
-                            <span>{buttonText}</span>
+                            <Button
+                                color={waitlistStatus == "error" ? "red" : ""}
+                                className={
+                                    (waitlistStatus == "initial") |
+                                    (waitlistStatus == "loading")
+                                        ? "bg-scheme-darkBlue h-10 text-base font-medium"
+                                        : waitlistStatus == "error"
+                                        ? "bg-red-500 h-10 text-base font-medium"
+                                        : "text-scheme-black h-10 text-base font-medium"
+                                }
+                                loading={waitlistStatus == "loading"}
+                                disabled={waitlistStatus == "success"}
+                            >
+                                {(waitlistStatus == "initial") |
+                                (waitlistStatus == "loading")
+                                    ? "Join the Waitlist"
+                                    : waitlistStatus == "success"
+                                    ? "Success!"
+                                    : "Sign up failed"}
+                            </Button>
                         </Link>
                     </div>
                 </div>
