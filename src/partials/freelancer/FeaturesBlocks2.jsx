@@ -1,6 +1,6 @@
 import React from "react";
 import Balancer from "react-wrap-balancer";
-import Form from "../../utils/Form.jsx";
+import { CTAForm as Form } from "../../utils/Form.jsx";
 
 function FeaturesBlocks() {
     return (

@@ -4,7 +4,7 @@ import Balancer from "react-wrap-balancer";
 import { useAtom } from "jotai";
 import { waitlistStatusAtom, toggleAtom } from "../state";
 
-const Form = () => {
+const CTAForm = () => {
     const [waitlistStatus, setWaitlistStatus] = useAtom(waitlistStatusAtom);
     const [toggle] = useAtom(toggleAtom);
     return (
@@ -22,7 +22,7 @@ const Form = () => {
             </div>
             <div className="mt-12 sm:w-full sm:max-w-md lg:mt-0 lg:ml-8 lg:flex-1">
                 <form
-                    className="flex gap-2 items-center justify-between"
+                    className="flex flex-col md:flex-row gap-2 items-start md:items-center justify-between"
                     onSubmit={(e) => {
                         e.preventDefault();
                         setWaitlistStatus("loading");
@@ -57,28 +57,25 @@ const Form = () => {
                                 ? "white"
                                 : ""
                         }
-                        color={
-                            waitlistStatus == "success"
-                                ? "green"
-                                : waitlistStatus == "error"
-                                ? "red"
-                                : ""
-                        }
+                        color={waitlistStatus == "error" ? "red" : ""}
                         type="submit"
                         className={
                             (waitlistStatus == "initial") |
                             (waitlistStatus == "loading")
                                 ? "text-scheme-black bg-gray-100 h-12 text-base font-medium"
-                                : "h-12 text-base font-medium"
+                                : waitlistStatus == "error"
+                                ? "bg-red-500 h-12 text-base font-medium"
+                                : "h-10 text-base font-medium"
                         }
                         loading={waitlistStatus == "loading"}
+                        disabled={waitlistStatus == "success"}
                     >
                         {(waitlistStatus == "initial") |
                         (waitlistStatus == "loading")
                             ? "Join the Waitlist"
                             : waitlistStatus == "success"
                             ? "Success!"
-                            : "Error!"}
+                            : "Click to retry"}
                     </Button>
                 </form>
                 <p className="mt-3 text-sm text-indigo-100">
@@ -97,4 +94,60 @@ const Form = () => {
     );
 };
 
-export default Form;
+const HeroForm = () => {
+    const [waitlistStatus, setWaitlistStatus] = useAtom(waitlistStatusAtom);
+    const [toggle] = useAtom(toggleAtom);
+    return (
+        <form
+            className="flex flex-col gap-2 items-center max-w-xl mx-auto mt-4"
+            onSubmit={(e) => {
+                e.preventDefault();
+                setWaitlistStatus("loading");
+                sendWaitlistData(toggle, e.target.email.value).then(
+                    (response) => {
+                        if (response.ok) {
+                            setWaitlistStatus("success");
+                        } else {
+                            setWaitlistStatus("error");
+                            throw response;
+                        }
+                    }
+                );
+            }}
+        >
+            <div className="w-full">
+                <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    className="block w-full rounded-md border-gray-300 shadow-sm focus:border-scheme-darkBlue sm:text-sm"
+                    placeholder="you@example.com"
+                    required
+                />
+            </div>
+
+            <Button
+                color={waitlistStatus == "error" ? "red" : ""}
+                type="submit"
+                className={
+                    (waitlistStatus == "initial") |
+                    (waitlistStatus == "loading")
+                        ? "bg-scheme-darkBlue h-10 text-base font-medium"
+                        : waitlistStatus == "error"
+                        ? "bg-red-500 h-10 text-base font-medium"
+                        : "text-scheme-black h-10 text-base font-medium"
+                }
+                loading={waitlistStatus == "loading"}
+                disabled={waitlistStatus == "success"}
+            >
+                {(waitlistStatus == "initial") | (waitlistStatus == "loading")
+                    ? "Join the Waitlist"
+                    : waitlistStatus == "success"
+                    ? "Success!"
+                    : "Click to retry"}
+            </Button>
+        </form>
+    );
+};
+
+export { CTAForm, HeroForm };

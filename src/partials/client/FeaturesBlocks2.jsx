@@ -2,7 +2,7 @@ import React from "react";
 import Balancer from "react-wrap-balancer";
 import { toggleAtom } from "../../state";
 import { useAtom } from "jotai";
-import Form from "../../utils/Form";
+import { CTAForm as Form } from "../../utils/Form";
 
 function FeaturesBlocks() {
     const [toggle, setToggle] = useAtom(toggleAtom);
