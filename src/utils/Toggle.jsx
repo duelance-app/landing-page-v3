@@ -8,7 +8,7 @@ export default function Toggle() {
     const toggleClass = "transform translate-x-6";
 
     return (
-        <div className="md:col-span-1 md:col-start-3 flex items-center justify-center text-scheme-black mb-2 md:mt-4">
+        <div className="md:col-span-1 md:col-start-3 place-self-center flex items-center justify-center text-scheme-black mb-2 md:mt-4">
             <button
                 onClick={() => {
                     setToggle(true);

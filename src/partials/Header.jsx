@@ -26,9 +26,9 @@ function Header() {
             }`}
         >
             <div className="max-w-6xl mx-auto px-5 sm:px-6">
-                <div className="grid md:grid-cols-5 max-sm:flex-col place-items-center mb-4 md:mb-0">
+                <div className="grid md:grid-cols-5 max-sm:flex-col mb-4 md:mb-0">
                     {/* Site branding */}
-                    <div className="md:col-span-1 md:col-start-1">
+                    <div className="md:col-span-1 md:col-start-1 [place-self:center_start]">
                         {/* Logo */}
                         <a href="/" aria-label="Duelance">
                             <svg
@@ -75,7 +75,7 @@ c0 72 1 134 3 138 1 4 -15 11 -36 15 -57 12 -96 35 -117 71 -19 31 -20 56 -20
                     <Toggle />
 
                     {/* Site navigation */}
-                    <div className="md:col-span-1 md:col-start-5">
+                    <div className="md:col-span-1 md:col-start-5 [place-self:center_end]">
                         <Link
                             to="email-address"
                             spy={true}
