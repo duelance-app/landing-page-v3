@@ -16,7 +16,7 @@
         "husky": "^8.0.3",
         "jotai": "^1.13.1",
         "kofi-button": "^1.1.1",
-        "prettier": "^2.8.7",
+        "prettier": "^3.0.0",
         "prop-types": "^15.8.1",
         "react": "^18.2.0",
         "react-cookie-consent": "^8.0.1",
